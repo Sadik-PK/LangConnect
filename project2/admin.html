@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Admin Panel | LinguaConnect</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">LinguaConnect</div>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="guidelines.html">Guidelines</a></li>
+            <li><a href="admin.html">Admin</a></li>
+        </ul>
+    </nav>
+
+    <section class="admin">
+
+        <h1>Admin Dashboard</h1>
+
+        <p>Manage community reports and maintain a safe environment.</p>
+
+        <h2>Submitted Reports</h2>
+
+        <table>
+            <tr>
+                <th>Reported User</th>
+                <th>Reason</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+
+            <tbody id="reportTable">
+            </tbody>
+        </table>
+
+        <h2>Moderation Information</h2>
+
+        <p>
+            Administrators can review reports submitted by
+            community members and take appropriate action.
+        </p>
+
+        <p id="adminStatus">
+            No moderation activity yet.
+        </p>
+
+    </section>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

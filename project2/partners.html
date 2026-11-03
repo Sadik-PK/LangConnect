@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Find Partners | LinguaConnect</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">LinguaConnect</div>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="partners.html">Find Partners</a></li>
+        </ul>
+    </nav>
+
+    <section class="partners">
+
+        <h1>Find Your Conversation Partner</h1>
+
+        <p>Connect with people and practise new languages together.</p>
+
+        <h3>Search for a Language Partner</h3>
+
+        <select id="searchLanguage">
+            <option value="">Select a language</option>
+            <option>Malayalam</option>
+            <option>Punjabi</option>
+            <option>Hindi</option>
+            <option>Tamil</option>
+            <option>Telugu</option>
+            <option>Bengali</option>
+        </select>
+
+        <select id="searchLevel">
+            <option value="">Any proficiency level</option>
+            <option>Beginner</option>
+            <option>Intermediate</option>
+            <option>Advanced</option>
+        </select>
+
+        <button onclick="findPartner()">Search</button>
+
+        <h2>Available Partners</h2>
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Native Language</th>
+                <th>Learning Language</th>
+                <th>Level</th>
+                <th>Action</th>
+            </tr>
+
+            <tbody id="partnerTable">
+            </tbody>
+        </table>
+
+    </section>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

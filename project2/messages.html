@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Messages | LinguaConnect</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">LinguaConnect</div>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="partners.html">Find Partners</a></li>
+            <li><a href="messages.html">Messages</a></li>
+        </ul>
+    </nav>
+
+    <section class="messages">
+
+        <h1>Community Messages</h1>
+
+        <p>Connect and communicate with your language partners.</p>
+
+        <h2>Send a Message</h2>
+
+        <label>Recipient Name</label>
+        <input type="text" id="recipient" placeholder="Enter recipient name">
+
+        <label>Your Message</label>
+        <textarea id="message" placeholder="Write your message"></textarea>
+
+        <button onclick="sendMessage()">Send Message</button>
+
+        <h2>Message History</h2>
+
+        <table>
+            <tr>
+                <th>Recipient</th>
+                <th>Message</th>
+                <th>Status</th>
+            </tr>
+
+            <tbody id="messageTable">
+            </tbody>
+        </table>
+
+    </section>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

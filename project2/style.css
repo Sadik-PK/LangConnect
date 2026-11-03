@@ -1,0 +1,351 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #142F38;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-buttons a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.get-started {
+    background-color: #2E8B75;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.language-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.language{
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+}
+
+.language h2 {
+    margin: 0 0 8px;
+}
+
+.language p {
+    margin: 0;
+}
+
+.list {
+    font-size: 20px;
+}
+
+.button{
+    background-color:#142F38;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #142F38;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.abtheader {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #142F38;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.about-section {
+    font-size: 20px;
+}
+
+.register-section {
+    font-size: 20px;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+}
+
+.register-section h2 {
+    text-align: center;
+    color:#142F38;
+}
+
+.register-section p {
+    text-align: center;
+    color: #666666;
+}
+
+.register-section label {
+    display: block;
+    margin-top: 15px;
+}
+
+.register-section input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.partners {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 25px;
+}
+
+.partners h1 {
+    color: #142F38;
+    text-align: center;
+}
+
+.partners p {
+    text-align: center;
+    color: #666666;
+}
+
+.partners select {
+    padding: 10px;
+    margin: 10px 5px;
+    border: 1px solid #cccccc;
+}
+
+.partners button {
+    padding: 10px 20px;
+    background-color: #2E8B75;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.partners table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.partners th,
+.partners td {
+    padding: 12px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+.messages {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 25px;
+}
+
+.messages h1 {
+    color: #142F38;
+    text-align: center;
+}
+
+.messages p {
+    color: #666666;
+    text-align: center;
+}
+
+.messages label {
+    display: block;
+    margin-top: 15px;
+}
+
+.messages input,
+.messages textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+
+.messages textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.messages button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #2E8B75;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.messages table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.messages th,
+.messages td {
+    padding: 12px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+.requests {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 25px;
+}
+
+.requests h1 {
+    color: #142F38;
+    text-align: center;
+}
+
+.requests p {
+    color: #666666;
+    text-align: center;
+}
+
+.requests table {
+    width: 100%;
+    margin-top: 25px;
+    border-collapse: collapse;
+}
+
+.requests th,
+.requests td {
+    padding: 12px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+.requests button {
+    padding: 8px 12px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.accept {
+    background-color: #2E8B75;
+}
+
+.reject {
+    background-color: #C0392B;
+}
+
+.guidelines {
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 30px;
+}
+
+.guidelines h1 {
+    color: #142F38;
+    text-align: center;
+}
+
+.guidelines h2 {
+    color: #2E8B75;
+    margin-top: 30px;
+}
+
+.guidelines p {
+    color: #555555;
+    line-height: 1.7;
+}
+
+.admin {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 25px;
+}
+
+.admin h1 {
+    color: #142F38;
+    text-align: center;
+}
+
+.admin p {
+    color: #666666;
+    text-align: center;
+}
+
+.admin h2 {
+    color: #2E8B75;
+    margin-top: 35px;
+}
+
+.admin table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.admin th,
+.admin td {
+    padding: 12px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+.login {
+    width: 350px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.login input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 15px;
+}
+
+.login button {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.logtxt {
+    text-align: center;
+    color: #142F38;
+    padding: 10px;
+    margin-bottom: 20px;
+}

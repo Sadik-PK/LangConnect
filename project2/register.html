@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | LangConnect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>LangConnect</h1>
+        </div>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-buttons">
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </div>
+    </nav>
+    <section class="register-section">
+        <h2>Register</h2>
+        <p> Join our community of language learners!</p>
+        <label>Full Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label>Email Address</label>
+            <input type="email" id="email" placeholder="Enter your email">
+
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Create a password">
+
+            <label>Native Language</label>
+            <select id="native">
+                <option value="">Select your native language</option>
+                <option>Malayalam</option>
+                <option>Punjabi</option>
+                <option>Hindi</option>
+                <option>Tamil</option>
+                <option>Telugu</option>
+                <option>Bengali</option>
+                <option>Other</option>
+            </select>
+
+            <label>Language You Want to Learn</label>
+            <select id="learning">
+                <option value="">Select a language</option>
+                <option>Malayalam</option>
+                <option>Punjabi</option>
+                <option>Hindi</option>
+                <option>Tamil</option>
+                <option>Telugu</option>
+                <option>Bengali</option>
+                <option>Other</option>
+            </select>
+
+            <label>Proficiency Level</label>
+            <select id="level">
+                <option value="">Select your level</option>
+                <option>Beginner</option>
+                <option>Intermediate</option>
+                <option>Advanced</option>
+            </select>
+
+            <button type="button" onclick="registerUser()">Register</button>
+                Create Account
+            </button>
+
+        </form>
+         <p>Already have an account? <a href="login.html">Login</a></p>
+
+    
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>

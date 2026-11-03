@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - LangConnect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <h1>LangConnect</h1>
+        </div>
+
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="partners.html">Find Partners</a></li>
+        </ul>
+
+        <div class="nav-buttons">
+            <a href="register.html">Register</a>
+        </div>
+    </nav>
+    <div class="logtxt"></div>
+        <h2>Welcome Back!</h2>
+        <p>Login to continue your language-learning journey.</p>
+    </div>
+
+    <div class="login">
+        <form>
+            <label for="loginEmail">Email</label>
+            <input type="email" id="loginEmail" placeholder="Enter your email">
+
+            <label for="loginPassword">Password</label>
+            <input type="password" id="loginPassword" placeholder="Enter your password">
+
+            <button type="button" onclick="loginUser()">Login</button>
+        </form>
+
+        <p>Don't have an account? <a href="register.html">Register here</a></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
